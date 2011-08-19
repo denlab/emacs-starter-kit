@@ -1,0 +1,9 @@
+#!/bin/sh -xe
+
+# Pull in lastest changes from the original technomancy repo
+
+# Initialy this was done: 
+#git remote add upstream https://github.com/technomancy/emacs-starter-kit.git
+
+git fetch upstream
+git merge upstream/master
